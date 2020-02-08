@@ -3,7 +3,10 @@
 money=20
 
 items = {'apple': 2, 'banana': 4, 'orange': 6}
+
+
 for item_name in items:
+    
     print('--------------------------------------------------')
    
     print("You have " + str(money) + " dollars in tour wallet ")
