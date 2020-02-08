@@ -24,9 +24,16 @@ for item_name in items:
     if money>=total_price:
         print("You have bought "+ str(input_count) + str(item_name) + "s")
         money =money-total_price
+        
+        if money==0:
+            print("Your wallet is now empty")
+        break  
+        
     else:
         print("You do not have enough money")
         print("You cannot buy that man y " + str(item_name) +" s")
-    
+
+
+print('You have '+ str(money) + "dollars left")    
    
     
