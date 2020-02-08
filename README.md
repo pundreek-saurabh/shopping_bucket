@@ -20,5 +20,13 @@ for item_name in items:
     total_price = items[item_name] * count
     print('The total price is ' + str(total_price) + ' dollars')
     
+    
+    if money>=total_price:
+        print("You have bought "+ str(input_count) + str(item_name) + "s")
+        money =money-total_price
+    else:
+        print("You do not have enough money")
+        print("You cannot buy that man y " + str(item_name) +" s")
+    
    
     
