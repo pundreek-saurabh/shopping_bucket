@@ -1,2 +1,1 @@
-A program written in python.
-Got to know about how to use loop , if-else and dictionary in python. 
+A python program written is about to understand the use basic attributes of this language like ditionaries, loops and if-else etc.
